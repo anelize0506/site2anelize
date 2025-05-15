@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/ane.jpeg" alt="avatar da Anelize" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Anelize_</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou Estudante de Computação. Estudante do Ensino Médio. Estudo usansdo o HTML, CSS e JavaScript. Veja osprojetos que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Coisas que gosto...</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/feminity __.jpeg"card-img-top alt="Imagem que eu gosto">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Página 1</h5>
+                        <p class="card-text">Este projeto é sobre algumas coisas que eu gosto, neste caso coloquei
+                             uma representação de unhas vermelhas, pois acho elas um charame e sempre que posso coloque
+                              vermelho nas unhas . A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do pinterest.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                         um pouco mais...</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/_ (1).jpeg" class="card-img-top" alt="Imagem dos gatinhos">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Página 2</h5>
+                        <p class="card-text">Este projeto é uma imagem de dois gatinhos,que estão aqui para 
+                            representar os amimais, pois também além de gatos adoro outros tipos de animais de estimação, 
+                            são fofos, carinhosos, lindos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                     um pouco mais...</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/paisagem.png" class="card-img-top" alt="Imagem do céu">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Página 3 
+                        </h5>
+                        <p class="card-text">Este projeto adicionei uma imagem de céu, acho lindo cada por do sol, 
+                            ou até mesmo o nascer do sol, imagem de natureza, e isso é muitas peesoas não param para observar 
+                            o que está a sua volta, cada vista que vc tem no seu dia a dia é uma paisagem, mais não paramos para apreciar.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                     um pouco mais...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha página 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Unhas vermelhas são frequentemente associadas a força, confiança e sensualidade, 
+                        podendo atrair atenção, principalmente do sexo oposto. A cor vermelha é vista como estimulante e vibrante, 
+                        capaz de despertar desejo e energia. </p>
+                     <img src="img/feminity __.jpeg" class="img-fluid w-100" alt="Imagem que eu gosto">
+                </div>
+                <div class="modal-footer">
+                    <a href="img/feminity __.jpeg">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha página 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O gostar que cada pessoa tem por um animal de estimação é uma questão complexa, influenciada por fatores pessoais, 
+                        experiências passadas e até mesmo por questões de personalidade. De forma geral, animais de estimação trazem diversos benefícios, 
+                        como redução do estresse, companhia e um maior senso de responsabilidade, que pode ser particularmente benéfico para pessoas 
+                        que enfrentam dificuldades com rotina ou direção. 
+                    </p>
+                    <img src="img/_ (1).jpeg" class="img-fluid w-10" alt="Imagem projeto gatinhos">
+                </div>
+                <div class="modal-footer">
+                    <a href="img/_ (1).jpeg">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha página 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O céu durante o nascer e pôr do sol, bem como a paisagem envolvente, podem despertar sentimentos e emoções diferentes em cada pessoa.
+                         O nascer do sol, com a luz dourada e a promessa de um novo dia, é frequentemente associado a esperança, renovação e novas 
+                         oportunidades. O pôr do sol, com seus tons alaranjados e avermelhados, pode evocar sentimentos de calma, reflexão e nostalgia, 
+                         além de uma sensação de que o dia está a chegar ao fim. </p>
+                         <img src="img/paisagem.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="img/paisagem.png">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Anelize Vaz Machado</p>
+    </footer>
+</body>
+
+</html>
